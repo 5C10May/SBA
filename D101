@@ -1,6 +1,6 @@
 n = input()
-firstDigit = n[0]   #get the first digit out from a text string
-if firstDigit in ('2', '3'):
+firstDigit = n[0]
+if firstDigit == '2' or firstDigit == '3':
     print('Fixed')
-elif firstDigit in ('5', '6', '9'):
-    print('Moblie')
+elif firstDigit == '5' or firstDigit == '6' or firstDigit == '9':
+    print('Mobile')
