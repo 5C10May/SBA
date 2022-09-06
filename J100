@@ -1,0 +1,5 @@
+n = int(input())
+for i in range(n):
+    for j in range(i):
+        print(j, end='') #don't start a new line
+    print() #new line
