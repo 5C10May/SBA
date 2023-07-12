@@ -1,0 +1,18 @@
+program Project1;
+
+uses sysutils;
+
+var
+  N: Integer;
+  S: string;
+  a: TstringArray;
+  c: string;
+
+begin
+
+  readln (input, S);
+  a:= S.Split([' ']);
+  for c in a do writeln(c);
+  readln
+
+end.
